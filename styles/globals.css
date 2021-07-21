@@ -1,16 +1,118 @@
-html,
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    @variants responsive {
+        .text-14-4-px-normal {
+            font-size: 14.4px;
+            line-height: normal;
+        }
+        .text-14-px-normal {
+            font-size: 14px;
+            line-height: normal;
+        }
+        .text-16-px-normal {
+            font-size: 16px;
+            line-height: normal;
+        }
+
+        .text-20-0-px-normal {
+            font-size: 20px;
+            line-height: normal;
+        }
+
+        .text-base-normal {
+            font-size: 1rem;
+            line-height: normal;
+        }
+
+        .text-1-2-rem-lh-default {
+            font-size: 1.2rem;
+        }
+
+        .text-0-875-rem-lh-1-3-rem {
+            font-size: 0.875rem;
+            line-height: 1.3rem;
+        }
+
+        .text-1-75-rem-lh-1-1 {
+            font-size: 1.75rem;
+            line-height: 1.1;
+        }
+
+        .text-3-1-rem-lh-1-1 {
+            font-size: 3.1rem;
+            line-height: 1.1;
+        }
+
+        .text-4-0-rem-lh-1-1 {
+            font-size: 4rem;
+            line-height: 1.1;
+        }
+        .text-1-125-rem-lh-default {
+            font-size:1.125rem;
+        }
+        .text-1-625-rem-lh-default {
+            font-size:1.625rem;
+        }
+
+
+
+
+    }
+}
+
+#__next {
+
+    /*@apply h-full;*/
+    /*@apply min-h-full ;*/
+    /*@apply min-h-full h-full relative;*/
+    /*@apply min-h-[600px] ;*/
+    /*@apply bg-red-400 bg-black bg-black h-[60px] bg-red-100 bg-transparent;*/
+
+}
+html, body {
+
+    @apply m-0 p-0 block;
+}
+html {
+    @apply h-full;
+
+}
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+    /*@apply min-w-[320px];*/
+
+    /*todo make this 320 into a named constant*/
+    /*@apply h-full min-h-full min-w-[320px];*/
+
+    @apply h-full min-h-full min-w-[320px] bg-black ;
+
+
+
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+/*@layer components {*/
+/*    .btn-blue {*/
+/*        @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;*/
+/*    }*/
+/*}*/
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,*/
+  /*  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
+/*}*/
 
-* {
-  box-sizing: border-box;
-}
+/*a {*/
+/*  color: inherit;*/
+/*  text-decoration: none;*/
+/*}*/
+
+/** {*/
+/*  box-sizing: border-box;*/
+/*}*/
+
+
+/*.red-color {*/
+/*  color: red;*/
+/*}*/
