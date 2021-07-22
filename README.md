@@ -1,7 +1,7 @@
 Test project for evaluating tailwind css with Next js. Replicated Netflix India website hero section for the test.
 
 
-![project preview](preview.gif)
+[project preview](https://user-images.githubusercontent.com/6473382/126600090-b73025d2-6878-4e96-b519-c06817803460.gif)
 
 
 ### Key things tested - 
