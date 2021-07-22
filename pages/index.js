@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Home() {
     //TODO set the page title -> SEO
-    const pageTitle = "Netflix Clone"
+    const pageTitle = "Netflix Tailwind Test"
     return (
       <>
           <Head>
@@ -120,8 +120,8 @@ export default function Home() {
               }>
 
                   <div className={
-                      +" "
-                      +" max-w-screen-[640px] xl:max-w-screen-[800px] "
+                      " "
+                      +" max-w-[640px] xl:max-w-[800px] "
                       +" text-1-75-rem-lh-1-1 sm:text-3-1-rem-lh-1-1 xl:text-4-0-rem-lh-1-1"
                       +" font-bold text-center text-white "
                       +" pb-3 "
@@ -130,7 +130,7 @@ export default function Home() {
                   </div>
                   <div className={
                       ""
-                      +" max-w-screen-[640px] xl:max-w-screen-[800px] "
+                      +" max-w-[640px] xl:max-w-[800px] "
                       +" text-1-125-rem-lh-default sm:text-1-625-rem-lh-default"
                       +" font-medium text-center text-white  "
                       +" pb-3  "
